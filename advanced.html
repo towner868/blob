@@ -3,15 +3,59 @@
     <head>
         <title>Search</title>
 	<link rel="stylesheet" href="styles.css">
+	
     </head>
     <body>
-	<div class="Relink">
-	<a href="index.html">Home</a><br>
-	<a href="image.html">Image Search</a>	
+	<div class="Relink"><a href="index.html">Home</a><a href="images.html">Images</a></div>
+	<div class="smallGoogle"><a href="index.html"><p><span class="blue">G</span><span class="red">o</span><span class="yellow">o</span><span class="blue">g</span><span class="green">l</span><span class="red">e</span></p></a></div>
+        <div class="advanced"><p>Advanced Search</p></div>
+		<br>
+		<hr>
+		<br>
+		<br>
+	<div class="adCondtext">
+		<div class="grid-item">
+			<p style="font-size:16px; font-weight: 500; color: #333; font-family: arial;"> Find pages with...</p>
+		</div>
+		<div class="grid-item">
+		</div>
+		<div class="grid-item">
+			<p style="font-size:13px; margin-left: -25px; font-weight: 700; color: #777; font-family: arial;"> To do this in the search box</p>
+		</div>
+		<div class="grid-item">
+			<p>all these words:</p>
+			<br>
+			<p style="margin-top: 10px">this exact word or phrase:</p>
+			<br>
+			<p style="margin-top: 10px">any of these words:</p>
+			<br>
+			<p style="margin-top: 10px">none of these words:</p>
+		</div>
+		<div class="grid-item"> 
+			<form id="all" class="advancedForm" action="https://www.google.com/search"> 
+				<input type="text" name="as_q">
+				<br><br>
+				<input type=text name="as_epq">
+				<br><br>
+				<input type="text" name="as_oq">
+				<br><br>
+				<input type="text" name="as_eq">
+				<br><br>
+				<input class="advancedButton" type="submit" value="Advanced Search">
+        		</form>
+		</div>
+		<div class="grid-item">
+		<p style="font-family: arial; margin-bottom: -20px; color: #555; display: inline; font-size: 11px;">Type the important words: </p><p style="color: #666; margin-top: -10px; display: inline; font-family: monospace; font-size: 11px; white-space: pre;">tricolor rat terrier</p><br>
+		<br style="line-height: 2">
+		<p style="font-family: arial; margin-top: -10px; color: #555; display: inline; font-size: 11px;">Put exact words in quotes: </p><p style="color: #666; display: inline; font-family: monospace; font-size: 11px;">"rat terrier"</p>
+		<br><br style="line-height: 2">
+		<p style="font-family: arial; color: #555; display: inline; font-size: 11px;">Type OR between all the words you want: </p><p style="color: #666; display: inline; font-family: monospace; font-size: 11px; white-space: pre;">miniature OR standard</p>
+		<br><br style="line-height: 1.5">
+		<p style="font-family: arial; color: #555; font-size: 11px;">Put a minus sign just before words you don't want:  </p><p style="color: #666; font-family: monospace; font-size: 11px; white-space: pre;">-rodent, -"Jack Russell"</p>
+		</div>
+		<div class="grid-item">	
+	
 	</div>
-        <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
     </body>
 </html>
+
